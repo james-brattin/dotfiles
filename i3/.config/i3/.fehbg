@@ -1,0 +1,4 @@
+#!/bin/sh
+
+feh --no-xinerama ~/nice-blue-background.png
+# ~/Pictures/stars.jpg 
