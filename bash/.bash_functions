@@ -10,3 +10,9 @@ up() {
   done
 
 }
+
+# list of commands/apps to add to an install script:
+#
+install_pnpm() {
+  curl -fsSL https://get.pnpm.io/install.sh | sh -
+}
