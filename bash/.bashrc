@@ -13,7 +13,7 @@ if [ -f ~/.bash_functions ]; then
   . ~/.bash_functions
 fi
 
-BROWSER='/usr/bin/firefox'
+export EDITOR="nvim"
 
 PS1='[\u@\h \W]\$ '
 
@@ -34,3 +34,10 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+export GPG_TTY=$(tty)
+
+# zoxide
+eval "$(zoxide init --cmd z bash)"
+. "/home/james/.deno/env"
+source /home/james/.local/share/bash-completion/completions/deno.bash

@@ -19,3 +19,7 @@ install_starship() {
 install_pnpm() {
   curl -fsSL https://get.pnpm.io/install.sh | sh -
 }
+
+install_deno() {
+  curl -fsSL https://deno.land/install.sh | sh
+}
