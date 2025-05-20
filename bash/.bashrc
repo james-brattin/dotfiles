@@ -41,3 +41,10 @@ export GPG_TTY=$(tty)
 eval "$(zoxide init --cmd z bash)"
 . "/home/james/.deno/env"
 source /home/james/.local/share/bash-completion/completions/deno.bash
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/james/.lmstudio/bin"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

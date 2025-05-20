@@ -23,3 +23,13 @@ install_pnpm() {
 install_deno() {
   curl -fsSL https://deno.land/install.sh | sh
 }
+
+audio_rs() {
+  systemctl --user stop wireplumber.service
+  rm -r ~/.local/state/wireplumber
+  systemctl --user start wireplumber.service
+}
+
+largest() {
+  find . -type f -exec du -h {} + | sort -hr | head -n 10
+}
