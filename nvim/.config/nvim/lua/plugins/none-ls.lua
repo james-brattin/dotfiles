@@ -1,7 +1,7 @@
 return {
   "nvimtools/none-ls.nvim",
   config = function()
-    local null_ls = require("none-ls.nvim")
+    local null_ls = require("null-ls.nvim")
     null_ls.setup({
       sources = {
         null_ls.builtins.formatting.stylua,
