@@ -48,3 +48,4 @@ export PATH="$PATH:/home/james/.lmstudio/bin"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
