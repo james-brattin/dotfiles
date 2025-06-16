@@ -11,3 +11,5 @@ alias ll='ls -alF'
 alias h.=history
 alias neo=neofetch
 alias zen='flatpak run app.zen_browser.zen'
+alias gst='git status'
+alias glo='git log --oneline'
