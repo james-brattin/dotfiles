@@ -15,8 +15,8 @@ for_window [class="^.*"] border pixel 1
 set $mod Mod1
 
 exec --no-startup-id picom
-exec --no-startup-id ~/.screenlayout/princeton_setup.sh
-exec --no-startup-id feh --bg-fill ~/nice-blue-background.png ~/Pictures/stars.jpg 
+exec --no-startup-id ~/.screenlayout/duo_setup.sh
+exec --no-startup-id feh --bg-fill ~/Pictures/stars.jpg ~/nice-blue-background.png
 exec --no-startup-id xrdb -merge ~/.Xresources
 exec_always --no-startup-id setxkbmap -option ctrl:nocaps
 
